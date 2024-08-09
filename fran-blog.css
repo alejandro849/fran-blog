@@ -1,0 +1,114 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('/logos/background-color.png'); /* Ruta a tu imagen */
+    background-repeat: repeat; /* Repite la imagen en todo el fondo */
+    background-size: auto; /* Mantiene el tamaño original de la imagen */
+    background-attachment: fixed; /* Mantiene la imagen fija cuando se desplaza la página */
+    background-position: center; /* Centra la imagen en la página */
+    color: #333; /* Color del texto, asegúrate de que sea legible con el fondo */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    background: linear-gradient(to bottom, #ff99cc, #ff6699); /* Fondo de encabezado en degradado rosa */
+    padding: 10px 0;
+    border-radius: 5px;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    font-family: 'Georgia', serif;
+}
+
+.main-content {
+    margin-top: 20px;
+}
+
+.main-content h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #d40078; /* Color del texto en el título */
+}
+
+.profile-pic {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%; /* Hace la imagen redonda */
+    width: 150px;
+    height: 150px;
+    border: 5px solid #d40078; /* Borde de la imagen */
+}
+
+.intro-text {
+    text-align: center;
+    font-size: 1.2em;
+    color: #d40078;
+}
+
+.sidebar {
+    margin-top: 40px;
+    background: #ffe6f2; /* Fondo de la barra lateral */
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.sidebar h3 {
+    font-size: 1.2em;
+    color: #d40078;
+}
+
+.sidebar input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #d40078;
+    border-radius: 5px;
+}
+
+.profile-sidebar {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: #d40078;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+.logo {
+    width: 30px !important;  /* Establece el ancho fijo de 30px */
+    height: 30px !important; /* Establece la altura fija de 30px */
+    display: inline-block; /* Asegura que la imagen se mantenga en línea */
+    margin: 0 5px; /* Añade un pequeño margen entre los logos */
+    object-fit: contain; /* Asegura que la imagen se ajuste al tamaño del contenedor */
+}
+
+.social-icons a {
+    text-decoration: none; /* Quita la línea de subrayado de los enlaces */
+}
