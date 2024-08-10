@@ -1,9 +1,8 @@
 body {
     font-family: 'Arial', sans-serif;
-    color: #333;
     margin: 0;
     padding: 0;
-    background-image: url('/logos/background-color.png'); /* Ruta a tu imagen */
+    background-image: url('/logos/'); /* Ruta a tu imagen */
     background-repeat: repeat; /* Repite la imagen en todo el fondo */
     background-size: auto; /* Mantiene el tamaño original de la imagen */
     background-attachment: fixed; /* Mantiene la imagen fija cuando se desplaza la página */
@@ -33,8 +32,14 @@ header h1 {
     font-family: 'Georgia', serif;
 }
 
-.main-content {
+.content-wrapper {
+    display: flex;
     margin-top: 20px;
+}
+
+.main-content {
+    flex: 3;
+    margin-right: 20px;
 }
 
 .main-content h2 {
@@ -59,7 +64,7 @@ header h1 {
 }
 
 .sidebar {
-    margin-top: 40px;
+    flex: 1;
     background: #ffe6f2; /* Fondo de la barra lateral */
     padding: 15px;
     border-radius: 5px;
@@ -101,6 +106,7 @@ header h1 {
 .sidebar ul li a:hover {
     text-decoration: underline;
 }
+
 .logo {
     width: 30px !important;  /* Establece el ancho fijo de 30px */
     height: 30px !important; /* Establece la altura fija de 30px */
